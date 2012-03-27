@@ -1,0 +1,14 @@
+#Directory Alias'
+alias ..="cd .."
+alias ~="cd ~"
+alias desktop="cd ~/Desktop/"
+alias docs="cd ~/Documents/"
+
+#Other
+alias c="clear"
+
+#Function
+function cmkdir {
+	mkdir $1
+	cd $1
+}
