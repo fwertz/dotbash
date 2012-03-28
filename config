@@ -1,1 +1,1 @@
-PS1="\n\[$(tput bold)\]\[$(tput setaf 6)\].: \[$(tput setaf 7)\]\u\[$(tput setaf 6)\]::\[$(tput setaf 7)\]\h\[$(tput setaf 6)\]:: \[$(tput setaf 7)\]\@\[$(tput setaf 6)\] :.\n\[$(tput setaf 0)\](\w)\[$(tput setaf 7)\]->  "
+PS1="\n$BIPurple.: $BIWhite\u$BIPurple::$BIWhite\h$BIPurple:: $BIWhite\@$BIPurple :.\n$BIBlack($On_IPurple\w$Color_Off$BIBlack)$BIWhite-> "
