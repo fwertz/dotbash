@@ -104,3 +104,9 @@ function cmkdir {
 	mkdir $1
 	cd $1
 }
+
+# Get git branch when availabile
+# http://lukasrieder.com/2009/07/14/extend-your-bash-ps1.html
+function getGitBranch {
+git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
+}
