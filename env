@@ -1,0 +1,13 @@
+# Get/Set platform
+platform='unknown'
+unamestr=`uname`
+
+if [[ "$unamestr" == 'Darwin' ]]; then
+	platform='osx'
+fi
+
+# OSX Specific
+if [[ "$platform" == 'osx' ]]; then
+	export PATH=$PATH:/Users/francis/bin
+fi
+

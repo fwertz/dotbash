@@ -5,7 +5,7 @@ alias ..="cd .."
 alias ~="cd ~"
 alias desktop="cd ~/Desktop/"
 alias docs="cd ~/Documents/"
-
+alias mrmb="cd ~/Desktop/Seisan/mrm-b/"
 ##########################
 # Colors & Constants
 # http://mediadoneright.com/content/ultimate-git-ps1-bash-prompt

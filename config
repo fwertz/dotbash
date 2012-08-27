@@ -5,5 +5,7 @@ esac
 
 if [ "$TERM" == "xterm-256color" ]
 	then
-		PS1="\n$IRed.: $BIWhite\u$IRed@$BIWhite\h$IRed :: $BIWhite\@$IRed :.\n$BIBlack($IRed\w$Color_Off$BIBlack)$BIPurple\$(getGitBranch)$BIWhite-> "
+	PS1="$BIBlack($IPurple\w$BIBlack)$BIGreen\$(getGitBranch)$BIWhite λ "
 fi
+#PS1="\n$IPurple.: $BIWhite\u$IPurple@$BIWhite\h$IPurple :: $BIWhite\@$IPurple :.\n$BIBlack($IPurple\w$Color_Off$BIBlack)$BIGreen\$(getGitBranch)$BIWhite-> "
+#PS1="$BIBlack($IPurple\w$BIBlack)\n$BIGreen\$(getGitBranch)$BIWhite->"
